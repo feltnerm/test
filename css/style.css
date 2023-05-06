@@ -1,3 +1,15 @@
+body {
+  background-color: #fafafa;
+}
+
+/* dark mode feature */
+/* @media (prefers-color-scheme: dark) { */
+/*   body { */
+/*     background-color: #232323; */
+/*     color: #fafafa; */
+/*   } */
+/* } */
+
 .content {
   margin: 5%;
   margin-left: 10%;
@@ -25,7 +37,7 @@
 
 .header>img {
   max-width: 100%;
-  max-height: 400px;
+  max-height: 300px;
   /* border-radius: 50%; */
 }
 
@@ -47,6 +59,11 @@ nav>ul>li { display: inline; }
   margin-bottom: 36px;
 }
 
+.sub-section {
+  padding-left: 36px;
+  font-size: small;
+}
+
 /* .section>h3 { text-align: center; } */
 
 
@@ -56,4 +73,24 @@ nav>ul>li { display: inline; }
 }
 
 .heading-img {
+}
+
+ /* unvisited link */
+a:link {
+  /* color: red; */
+}
+
+/* visited link */
+a:visited {
+  /* color: green; */
+}
+
+/* mouse over link */
+a:hover {
+  /* color: hotpink; */
+}
+
+/* selected link */
+a:active {
+  /* color: blue; */
 }
